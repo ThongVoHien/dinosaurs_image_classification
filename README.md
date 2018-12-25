@@ -1,6 +1,15 @@
 # Dinosaurs Image Classification
 
-This repository follows the instruction on [YouTube](https://www.youtube.com/watch?v=QfNvhPx5Px8)
+This repository follows the instruction on [YouTube](https://www.youtube.com/watch?v=QfNvhPx5Px8).
+
+This model could be used to classify different types of dinosaurs.
+
+![Animantarx](dinosaurs/dinosaurs/Animantarx/1_1PZ6155413.jpg)
+![Carnotaurus](dinosaurs/dinosaurs/Carnotaurus/03_16_28_112_CarnotaurusBlackPic3.jpg)
+![Kentrosaurus](dinosaurs/dinosaurs/Kentrosaurus/067_p_kentrosaurus_p.jpg)
+![Mamenchisaurus](dinosaurs/dinosaurs/Mamenchisaurus/068b_p_mamenchisaurus_p.jpg)
+
+
 
 ## Prerequisites
 
