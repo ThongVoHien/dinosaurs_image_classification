@@ -4,10 +4,10 @@ This repository follows the instruction on [YouTube](https://www.youtube.com/wat
 
 This model could be used to classify different types of dinosaurs.
 
-![Animantarx](dinosaurs/dinosaurs/Animantarx/1_1PZ6155413.jpg)
-![Carnotaurus](dinosaurs/dinosaurs/Carnotaurus/03_16_28_112_CarnotaurusBlackPic3.jpg)
-![Kentrosaurus](dinosaurs/dinosaurs/Kentrosaurus/067_p_kentrosaurus_p.jpg)
-![Mamenchisaurus](dinosaurs/dinosaurs/Mamenchisaurus/068b_p_mamenchisaurus_p.jpg)
+![Animantarx](dinosaurs/dinosaurs/Animantarx/1_1PZ6155413.jpg =250x)
+![Carnotaurus](dinosaurs/dinosaurs/Carnotaurus/03_16_28_112_CarnotaurusBlackPic3.jpg =250x)
+![Kentrosaurus](dinosaurs/dinosaurs/Kentrosaurus/067_p_kentrosaurus_p.jpg =250x)
+![Mamenchisaurus](dinosaurs/dinosaurs/Mamenchisaurus/068b_p_mamenchisaurus_p.jpg =250x)
 
 
 
