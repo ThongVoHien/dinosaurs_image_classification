@@ -1,4 +1,4 @@
-# dinosaurs image classification
+# Dinosaurs Image Classification
 
 This repository follows the instruction on [YouTube](https://www.youtube.com/watch?v=QfNvhPx5Px8)
 
@@ -8,28 +8,27 @@ This repository follows the instruction on [YouTube](https://www.youtube.com/wat
 
 ## Running
 
-1. Download and start the docker image `docker run -it -v $HOME/tf:/tf tensorflow/tensorflow:latest-devel bash`
-2. Run label_image to classify image. `python /tf/label_image.py  <path_to_image/file>` (500 training steps) or `python /tf/label_image_1000.py  <path_to_image/file>`(1000 training steps)
+1. Download and start the docker image `docker run -it -v $dinosaurs_image_classification/dinosaurs:/tf tensorflow/tensorflow:latest-devel bash`
+2. Run label_image to classify image. `python /tf/label_image_500.py  <path_to_image/file>` (500 training steps) or `python /tf/label_image_1000.py  <path_to_image/file>`(1000 training steps)
 
 ## Result
 
-### With 500 training steps
+Final test accuracy = 82.1% (N=39) for 500 steps
+Final test accuracy = 84.6% (N=39) for 1000 steps
 
-#### Accuracy
+### Testing with Animantarx
 
-#### Testing with Animantarx
+|  | Animantarx | Carnotaurus | Kentrosaurus | Mamenchisaurus |
+| --- | --- | --- | --- | --- |
+|  500 training steps | 0.52469 | 0.07295 | 0.02780 | 0.37456 |
+| 1000 training steps | 0.68299 | 0.04873 | 0.01019 | 0.25809 |
 
-#### Testing with Carnotaurus
+### Testing with Mamenchisaurus
 
-#### Testing with Kentrosaurus
-
-#### Testing with Mamenchisaurus
-
-#### Testing with other dinosaurs
-
-### With 1000 training steps
-
-
+|  | Animantarx | Carnotaurus | Kentrosaurus | Mamenchisaurus |
+| --- | --- | --- | --- | --- |
+|  500 training steps | 0.02117 | 0.03466 | 0.02471 | 0.91945 |
+| 1000 training steps | 0.01154 | 0.02290 | 0.01484 | 0.95071 |
 
 ## Retrain the model
 
