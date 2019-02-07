@@ -21,6 +21,7 @@ This model could be used to classify different types of dinosaurs.
 ## Result
 
 Final test accuracy = 82.1% (N=39) for 500 steps
+
 Final test accuracy = 84.6% (N=39) for 1000 steps
 
 ### Testing with Animantarx
